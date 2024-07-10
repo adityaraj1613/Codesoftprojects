@@ -1,0 +1,58 @@
+.calculator {
+    width: 250px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #000; /* changed background color to black */
+}
+
+.display-screen {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #333; /* changed background color to dark gray */
+    color: #fff; /* added text color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4CAF50; /* added background color */
+    color: #fff; /* added text color */
+}
+
+button:hover {
+    background-color: #3e8e41; /* added hover background color */
+}
+
+button:active {
+    background-color: #3e8e41; /* added active background color */
+}
+
+#clear, #backspace {
+    background-color: #ff9800; /* added background color for clear and backspace buttons */
+    color: #fff; /* added text color */
+}
+
+#equals {
+    background-color: #009688; /* added background color for equals button */
+    color: #fff; /* added text color */
+}
