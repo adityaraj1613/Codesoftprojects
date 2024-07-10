@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+/* Container 1 */
+.contact-info{
+    background-image: linear-gradient(to right,orange,#eb3492);
+    height: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12%;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.logos i{
+    margin: 0 5px 0 0;
+}
+.request button{
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: rgba(0,0,0,0);
+    padding: .7rem;
+    color: white;
+    font-weight: 600;
+}
+.contact p{
+    margin: 10px;
+}
+/* Container 2 */
+.navbar{
+    height: 60px;
+}
+.logo{
+    font-weight:700;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Container 3 */
+.hero{
+    background: url(gettyimages-1352105665-612x612.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 4rem 0;
+    height: 400px;
+}
+.hero .container{
+    display: block;
+    border-left: 4px solid orangered;
+    color: black;
+}
+
+/* Container 4 */
+.features{
+    background-image: linear-gradient(to right,orange,#eb3492);
+    height: 100px;
+}
+.upper{
+    display: flex;
+    align-items: center;
+    margin: 2px 1rem;
+}
+.feature{
+    margin: 20px 10px;
+    color: white;
+}
+.upper h3{
+    margin-left: 50px;
+    font-weight: 700;
+}
+.image img{
+    width: 50vh;
+}
+
+.about{
+    margin-top: 2rem;
+}
+.about button{
+    background-image: linear-gradient(to right,orange,#eb3492);
+    color: white;
+    border-radius: 3rem;
+    padding: .7rem;
+    font-size: larger;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+.about h2{
+    font-weight: 700;
+    font-size:xx-large;
+}
+.about h3{
+    font-weight: 500;
+    font-size: x-large;
+    margin: 1rem 0;
+}
+.cta-buttons button{
+    background-image: linear-gradient(to right,orange,#eb3492);
+    color: white;
+    border-radius: 3rem;
+    padding: .7rem;
+    font-size: larger;
+    font-weight: 600;
+}
+.Services{
+    background: #f5f6f7;
+}
+.Services h2{
+    font-weight: 700;
+    font-size:xx-large;
+}
+.Services .container{
+    display: block;
+    margin: 0 12%;
+
+}
+.service{
+    display: flex;
+    margin: 5px;
+}
+.service img{
+    width:25rem;
+}
+hr{
+    width: 5rem;
+    background-image: linear-gradient(to right,orange,#eb3492);
+    height: 5px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
